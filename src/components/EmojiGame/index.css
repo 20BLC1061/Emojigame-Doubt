@@ -1,0 +1,27 @@
+.emoji-game-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.Emoji-Card-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 75%;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .Emoji-Card-container {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  .Emoji-Card-container {
+    width: 90%;
+  }
+}

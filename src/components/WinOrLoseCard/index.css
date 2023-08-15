@@ -1,0 +1,66 @@
+.WinOrLoseCard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 80%;
+}
+.result-container {
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #ffffff30;
+  border-radius: 15px;
+  background-color: #ffffff33;
+  width: 350px;
+  min-height: 350px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (min-width: 768px) {
+  .result-container {
+    width: 80%;
+    flex-direction: row;
+  }
+  .content {
+    order: -1;
+  }
+}
+
+.result-pic {
+  width: 40%;
+}
+.result-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 32px;
+}
+.subtitle {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: -15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.final-score {
+  color: #6a59ff;
+  margin-top: -15px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.playAgain-Btn {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
